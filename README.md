@@ -1,5 +1,7 @@
 # 험블벅 (텀블벅 클론코딩)
 
+영상 링크 : https://www.youtube.com/watch?v=qUSai5QtndI
+
 ## 험블벅이란?
 
 - 크라우드펀딩 텀블벅 클론 프로젝트
