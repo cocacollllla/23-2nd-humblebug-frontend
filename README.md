@@ -1,21 +1,5 @@
 # 험블벅 (텀블벅 클론코딩)
 
-## Humblebug Project Family
-
-![Image from iOS](https://user-images.githubusercontent.com/8315252/131079623-28e4e6ff-aa57-46cd-a9ed-542c52a912ff.jpg)
-
-
-- F.E<br>
-  [황도윤](https://github.com/tec-motive) : 할배도윤 / 본투비리더<br>
-  [김다슬](https://github.com/cocacollllla) : 실세다슬 / 험블벅 실력자이자 실세 눈치 챙겨 눈치<br>
-  [김로운](https://github.com/lownk) : 갓기로운 / 살리고 살리고 분위기 살살 살리고<br>
-  <br>
-- B.E<br>
-  [고유영](https://github.com/lunayyko) : 깃천유영 / 리베이스의 늪에서 다시 태어남 <br>
-  [한상웅](https://github.com/tkddnd82) : 서윗상웅 / 침착하고 은근한 개그캐<br> 
-  [최혜림](https://github.com/rimi0108) : 천재혜림 / 우분투 마스터<br> 
-  <br>
-
 ## 험블벅이란?
 
 - 크라우드펀딩 텀블벅 클론 프로젝트
@@ -26,29 +10,14 @@
 - 개발기간 : 2021/8/17 ~ 2021/8/31
 - 개발 인원 : 프론트엔드 3명, 백엔드 3명
 
-### 프로젝트 선정이유
-
-- 디자인이 깔끔하고 크라우드 펀딩 프로젝트 CRUD와 후원 부분이 구현하면서 배울 점이 좋을 것 같아서 선정되었습니다.
-
 ## 적용 기술 및 구현 기능
 
 ### 적용 기술
 
 > -Front-End : javascript, React.js framwork, styled-components<br>
-> -Back-End : Python, Django web framework, MySQL, Bcrypt, pyjwt, AWS, S3<br>
 > -Common : POSTMAN, RESTful API
 
 ### 구현 기능
-
-#### 회원가입 / 로그인페이지
-
-- 로그인페이지 소셜로그인(카카오)기능 구현
-- 백엔드와 통신, 페이지 데이터 렌더링
-
-#### 메인페이지
-
-- 메인페이지 레이아웃
-- 메인페이지 캐러셀 라이브러리 사용
 
 #### 프로젝트 더보기 리스트 페이지
 
@@ -56,8 +25,11 @@
 
 #### 프로젝트 상세페이지
 
-- useState hooks 를 이용하여 후원하기 버튼 클릭시 총 후원금액 추가 되도록 하는 기능
-- fetch 함수 사용하여 데이터 통신으로 댓글 등록 기능
+- styled-components 라이브러리를 이용한 UI 구현
+- axios 라이브러리로 HTTP통신을 통한 후원옵션과 후원금액 데이터 전송
+- 후원옵션에 따른 추가후원금액 계산하여 노출
+- Query parameter 이용하여 카테고리별 필터 기능 구현
+- 댓글 등록 기능 구현
 
 <br>
 
